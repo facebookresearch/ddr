@@ -18,7 +18,7 @@ python main.py --train-dynamics --train-set <traindata_dir> --test-set <testdata
 
 Example command to train the rewards module:
 ```
-python main.py --train-reward --env-name HalfCheetahEnv --framework rllab --dynamics-module <model_dir> --dim 200 --num-episodes 100000
+python main.py --train-reward --env-name HalfCheetahEnv --framework rllab --dynamics-module <model_dir> --dim 200 --num-episodes 10000000
 ```
 
 Transfer
@@ -46,3 +46,6 @@ tensorboard --logdir <path-to-log-dir>/tb_logs/ --port 6006
 
 
 You can then set up port forwarding to access the tensorboard on the local machine.
+
+## License
+Attribution-NonCommercial 4.0 International as found in the LICENSE file.
