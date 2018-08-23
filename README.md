@@ -1,6 +1,6 @@
 # ddr_for_tl
 Decoupling Dynamics and Reward for Transfer Learning
-
+Paper: https://arxiv.org/abs/1804.10689
 Generate data for Dynamics Module: (run twice in different locations for train and test sets)
 ```
 python generate_dynamics_data.py --env-name HalfCheetahEnv --framework rllab --random-start --N 100000 --reset --out <trainout_dir>
